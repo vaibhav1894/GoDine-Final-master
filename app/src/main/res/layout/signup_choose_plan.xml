@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <FrameLayout
+        android:id="@+id/images"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonlay"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp">
+        <ImageView
+            android:id="@+id/stepimg"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:src="@drawable/step"
+            android:scaleType="fitXY"
+            />
+        <TextView
+            android:id="@+id/step"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step 2"
+            android:textSize="18sp"
+            android:textColor="@color/cardview_light_background"
+            android:layout_marginTop="3dp"
+            android:layout_gravity="center_horizontal"/>
+        <TextView
+            android:id="@+id/planname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step"
+            android:textSize="13sp"
+            android:textColor="@color/cardview_light_background"
+            android:layout_marginTop="3dp"
+            android:layout_gravity="center"/>
+    </FrameLayout>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="4dp"
+    >
+
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:paddingTop="10dp"
+       android:layout_marginLeft="25dp"
+       android:layout_marginRight="25dp"
+       android:paddingBottom="10dp"
+       >
+      <LinearLayout
+          android:orientation="vertical"
+          style="@style/GDSimplerectangletouchborder"
+          >
+
+         <ImageView
+             android:layout_width="match_parent"
+             android:layout_height="80dp"
+             android:scaleType="centerCrop"
+             android:src="@drawable/justonemeber"
+             />
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:gravity="center"
+             android:textStyle="bold"
+             android:text="@string/signupdiscount"
+             android:textSize="21sp"/>
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:textColor="@color/black"
+             android:gravity="center"
+             android:layout_marginTop="1dp"
+             android:text="every time you dine at any GoDine Member Restaurant."
+             android:textSize="11sp"/>
+         <FrameLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="15dp">
+            <ImageView
+                android:layout_gravity="center"
+
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                android:src="@drawable/couponjustprime"
+                android:id="@+id/image19"
+
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:text="CLICK TO SELECT"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/bt_justone"
+                style="@style/GDAppButtonBaseTheme"/>
+         </FrameLayout>
+
+      </LinearLayout>
+      <LinearLayout
+          android:orientation="vertical"
+          style="@style/GDSimplerectangletouchborder"
+          >
+
+         <ImageView
+             android:layout_width="match_parent"
+             android:layout_height="80dp"
+             android:scaleType="centerCrop"
+             android:src="@drawable/plusonemember"
+             />
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:gravity="center"
+             android:textStyle="bold"
+             android:text="@string/signupdiscount"
+             android:textSize="21sp"/>
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:textColor="@color/black"
+             android:gravity="center"
+             android:layout_marginTop="1dp"
+             android:text="every time you dine at any GoDine Member Restaurant."
+             android:textSize="11sp"/>
+         <FrameLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="15dp">
+            <ImageView
+            android:layout_gravity="center"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                android:src="@drawable/couponplusonemember"
+                android:id="@+id/image29"
+
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:text="CLICK TO SELECT"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/bt_plusone"
+                style="@style/GDAppButtonBaseTheme"/>
+         </FrameLayout>
+
+      </LinearLayout>
+      <LinearLayout
+          android:orientation="vertical"
+          style="@style/GDSimplerectangletouchborder"
+          >
+
+         <ImageView
+             android:scaleType="centerCrop"
+             android:layout_width="match_parent"
+             android:layout_height="80dp"
+             android:src="@drawable/plusthreemember"
+
+             />
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:gravity="center"
+             android:textStyle="bold"
+             android:text="@string/signupdiscount"
+             android:textSize="21sp"/>
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="1dp"
+             android:textColor="@color/black"
+             android:gravity="center"
+             android:text="every time you dine at any GoDine Member Restaurant."
+             android:textSize="11sp"/>
+         <FrameLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="20dp">
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                android:id="@+id/image49"
+                android:layout_gravity="center"
+                android:src="@drawable/couponplusthreemember"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:text="CLICK TO SELECT"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/bt_plusthee"
+                style="@style/GDAppButtonBaseTheme"/>
+
+         </FrameLayout>
+      </LinearLayout>
+   </LinearLayout>
+</ScrollView>
+</LinearLayout>
